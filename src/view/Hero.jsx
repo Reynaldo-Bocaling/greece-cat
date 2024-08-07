@@ -21,7 +21,7 @@ const Hero = () => {
         </div>
         <div className="flex flex-col md:flex-row items-center gap-5 -mt-12">
           <div className="w-full md:w-1/4 ">
-            <button className="font-normal text-xl text-black font-medium pl-5 pr-2 py-2 w-full rounded-full bg-yellow-500 flex items-center justify-between gap-12 duration-300 transition-all hover:translate-x-5">
+            <button className="font-normal text-xl text-black font-bold pl-5 pr-2 py-2 w-full rounded-full bg-yellow-500 flex items-center justify-between gap-12 duration-300 transition-all hover:translate-x-5">
               Buy Now Tokens
               <p className="h-[50px] w-[50px] rounded-full bg-white flex items-center justify-center">
                 <GoArrowRight size={25} />

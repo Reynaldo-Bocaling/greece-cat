@@ -6,7 +6,7 @@ const Gallery = () => {
   return (
     <section
       id="gallery"
-      className="w-full relative py-20 bg-dark rounded-t-[15rem] overflow-hidden mt-14"
+      className="w-full relative py-20 bg-dark rounded-t-3xl overflow-hidden mt-14"
     >
       <div className="relative max-w-7xl mx-auto flexColCenter gap-9 z-[998]">
         <h1 className="font-title text-5xl md:text-7xl text-white font-bold  text-center mb-12">
