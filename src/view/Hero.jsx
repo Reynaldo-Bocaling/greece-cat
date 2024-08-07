@@ -33,7 +33,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="flex-1 relative bg-transparentGray  rounded-2xl  px-5 flex items-start overflow-hidden">
-            <div className="w-1/2 py-7 px-4 z-[99]">
+            <div className="w-full md:w-1/2 py-7 px-4 z-[99]">
               <h1 className="text-3xl font-title text-white">
                 Earn with Every Cat Today{" "}
                 <span className="text-yellow-500 text-4xl">*</span>
@@ -45,7 +45,7 @@ const Hero = () => {
             </div>
             <img
               src="/img/main-phone.png"
-              className="w-1/2 rotate-[24deg] translate-y-20 -translate-x-7 z-[99]"
+              className="w-1/2 md:rotate-[24deg] translate-y-40 md:translate-y-20 md:-translate-x-7 z-[99]"
               alt=""
             />
             <img
@@ -61,7 +61,7 @@ const Hero = () => {
                 Invest in our unique Greece Cat Tokens. Celebrate stray cats and
                 join the crypto revolution today!
               </h1>
-              <button className="font-normal text-purple text-lg font-medium  bg-white py-2 px-7 rounded-full">
+              <button className="font-normal text-purple text-lg font-medium  bg-white py-2 px-7 rounded-full mt-5">
                 Earn
               </button>
             </div>

@@ -5,10 +5,10 @@ import { tokenomics } from "../constant";
 
 const Tokenomics = () => {
   return (
-    <section id="tokenomics" className="relative w-full">
+    <section id="tokenomics" className="relative w-full mt-20 md:mt-0">
       <div className="max-w-7xl mx-auto px-5">
         <div className="w-full flex items-center justify-between">
-          <h1 className="font-title text-7xl text-dark font-bold">
+          <h1 className="font-title text-5xl md:text-7xl text-dark font-bold">
             TOKENOMICS <span className="text-yellow-500 text-4xl">*</span>
           </h1>
         </div>
@@ -19,10 +19,10 @@ const Tokenomics = () => {
               1,000,000,000
             </h1>
             <h1 className="text-2xl font-bold text-dark">TOTAL SUPPLY</h1>
-            <div className="relative py-4 px-5 flex items-center justify-around gap-3 bg-white max-w-lg border border-purple-600 mt-5">
-              <p className="text-dark text-xl font-bold">
+            <div className="relative py-4 px-5 flex items-center justify-around gap-3 bg-white max-w-lg border border-purple-600 mt-5 ">
+              <p className="text-dark text-base md:text-xl font-bold">
                 {" "}
-                2x383DJSDHSDBSSDSDSD7739383DSDDDDD
+                2x383DJSDHSDBSSDSDSD7739383DSD
               </p>
 
               <button>

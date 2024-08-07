@@ -5,7 +5,7 @@ const About = () => {
     <section id="about" className="relative w-full ">
       <div className="max-w-7xl mx-auto flex items-center flex-col md:flex-row justify-center gap-20 px-4 mt-28 md:mt-0">
         <div className="w-full md:w-1/2 flex flex-col gap-4">
-          <h1 className="font-title text-7xl text-dark font-bold">
+          <h1 className="font-title text-4xl md:text-7xl text-dark font-bold">
             GET TO KNOW US <span className="text-yellow-500 text-4xl">*</span>
           </h1>
           <p
@@ -43,7 +43,7 @@ const About = () => {
                 className="w-full rotate-3"
               />
             </div>
-            <button className="text-white text-lg font-semibold bg-purple rounded-full py-4 px-20 border-[2px]  absolute -bottom-12 left-1/2 -translate-x-1/2 -rotate-3 duration-300 transition-all hover:-translate-y-5">
+            <button className="text-white text-lg font-semibold bg-purple rounded-full py-4 px-20 whitespace-nowrap border-[2px]  absolute -bottom-12 left-1/2 -translate-x-1/2 -rotate-3 duration-300 transition-all hover:-translate-y-5">
               Buy Now
             </button>
             <img
