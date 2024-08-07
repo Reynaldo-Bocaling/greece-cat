@@ -9,7 +9,7 @@ const header = () => {
     <header className="relative w-full bg-bluish z-[998]">
       <nav className="max-w-7xl mx-auto flex items-center justify-between px-4 py-4">
         <h1 className="text-2xl text-dark font-bold">
-          Greece_<span className="text-purple">Cat</span>
+          Greece_<span className="text-skyBlue">Cat</span>
         </h1>
         <ul className="hidden md:flex items-center justify-center gap-20">
           {navlinks.map((item, index) => {
@@ -22,14 +22,14 @@ const header = () => {
             );
           })}
         </ul>
-        <button className="text-white text-xl font-semibold tracking-wider bg-purple rounded-full py-3 px-12 whitespace-nowrap border-[2px]  duration-300 transition-all hover:-translate-y-5">
+        <button className="text-white text-xl font-semibold tracking-wider bg-skyBlue rounded-full py-3 px-12 whitespace-nowrap border-[2px]  duration-300 transition-all hover:-translate-y-5">
           Buy Now
         </button>
         <button
           onClick={() => setIsOpen(true)}
           className="md:hidden relative z-[99]"
         >
-          <HiMenuAlt3 size={30} className="text-purple" />
+          <HiMenuAlt3 size={30} className="text-skyBlue" />
         </button>
       </nav>
 
@@ -37,14 +37,14 @@ const header = () => {
         <nav className="md:hidden max-w-7xl mx-auto  px-4 py-5 fixed top-0 bg-dark z-[999] w-full duration-500 transition-all  h-full flex flex-col items-center gap-5">
           <div className="w-full flex items-center justify-between">
             <h1 className="text-2xl text-white font-bold">
-              Greece_<span className="text-purple">Cat</span>
+              Greece_<span className="text-skyBlue">Cat</span>
             </h1>
 
             <button
               className="relative z-[99]"
               onClick={() => setIsOpen(false)}
             >
-              <FaTimes size={30} className="text-purple" />
+              <FaTimes size={30} className="text-skyBlue" />
             </button>
           </div>
 

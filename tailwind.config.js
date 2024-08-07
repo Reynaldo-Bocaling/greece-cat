@@ -10,14 +10,19 @@ export default {
         bluish: "#87CEEB",
         steal: "#4682B4",
         gold: "#fcaa11",
+        skyBlue: "#5AB2FF",
+        darkBlue: "#4C3BCF",
       },
       textColor: {
         purple: "#7F27FF",
         dark: "#232323",
         gold: "#fcaa11",
+        skyBlue: "#5AB2FF",
+        darkBlue: "#4C3BCF",
       },
       borderColor: {
         gold: "#fcaa11",
+        skyBlue: "#5AB2FF",
       },
       fontFamily: {
         title: ["Timmana", "sans-serif"],

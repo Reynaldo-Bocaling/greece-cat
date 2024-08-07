@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="flex flex-col items-center">
           <h1 className="text-5xl md:text-8xl text-white font-medium flex flex-wrap items-center justify-center gap-5 leading-[4rem] md:leading-[6.5rem] text-center">
             Embrace the{" "}
-            <p className="text-lg font-extra text-purple tracking-wider bg-reds-500 max-w-md px-9">
+            <p className="text-lg font-extra text-darkBlue tracking-wider bg-reds-500 max-w-md px-9">
               Join the movement to celebrate and support Greece's stray cats
               with our unique crypto.
             </p>{" "}
@@ -22,7 +22,7 @@ const Hero = () => {
         </div>
         <div className="flex flex-col md:flex-row items-center gap-5 -mt-12">
           <div className="w-full md:w-1/4 ">
-            <button className="font-normal text-xl text-black font-bold pl-5 pr-2 py-2 w-full rounded-full bg-yellow-500 flex items-center justify-between gap-12 duration-300 transition-all hover:translate-x-5">
+            <button className="font-normal font-title text-2xl text-black font-bold pl-5 pr-2 py-2 w-full rounded-full bg-yellow-500 flex items-center justify-between gap-12 duration-300 transition-all hover:translate-x-5">
               Buy Now Tokens
               <p className="h-[50px] w-[50px] rounded-full bg-white flex items-center justify-center">
                 <GoArrowRight size={25} />
@@ -37,7 +37,7 @@ const Hero = () => {
               {socialLinks.map((item, index) => (
                 <li
                   key={index}
-                  className="flex items-center justify-center w-[55px] h-[55px] p-3 rounded-full bg-transparentGray"
+                  className="flex items-center justify-center w-[55px] h-[55px] p-3 rounded-full bg-[rgba(73,139,201,0.5)]"
                 >
                   <a href={item.url}>
                     <img src={item.img} alt="" className="w-full" />
@@ -56,7 +56,7 @@ const Hero = () => {
                 Explore our unique phone designs featuring cat collages and
                 start earning today!
               </p>
-              <button className="text-white text-2xl font-semibold tracking-wider bg-purple rounded-full py-3 px-14 whitespace-nowrap border-[2px] mt-12  -rotate-3 duration-300 transition-all hover:-translate-y-5">
+              <button className="text-white text-2xl font-semibold tracking-wider bg-skyBlue rounded-full py-3 px-14 whitespace-nowrap border-[2px] mt-12  -rotate-3 duration-300 transition-all hover:-translate-y-5">
                 Dextool
               </button>
             </div>
@@ -78,7 +78,7 @@ const Hero = () => {
                 Invest in our unique Greece Cat Tokens. Celebrate stray cats and
                 join the crypto revolution today!
               </h1>
-              <button className="font-normal text-purple text-lg font-medium  bg-white py-2 px-7 rounded-full mt-5">
+              <button className="font-normal font-title text-skyBlue text-lg font-medium  bg-white py-2 px-7 rounded-full mt-5">
                 Earn
               </button>
             </div>

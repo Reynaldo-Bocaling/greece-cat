@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 
 const SlidingText = () => {
   return (
-    <div className="w-full  overflow-hidden  py-5 flex items-center justify-center md:justify-start gap-7 absolute -bottom-10 bg-purple Z-[] -rotate-2">
+    <div className="w-full  overflow-hidden  py-5 flex items-center justify-center md:justify-start gap-7 absolute -bottom-10 bg-skyBlue Z-[] -rotate-2">
       <Marquee direction="right" className="">
         {" "}
         {Array.from({ length: 50 }, (_, i) => (

@@ -36,14 +36,14 @@ const About = () => {
                 className="w-full rotate-3"
               />
             </div>
-            <div className="w-1/2 bg-purple flex items-center">
+            <div className="w-1/2 bg-skyBlue flex items-center">
               <img
                 src="/img/about_img2.jpg"
                 alt=""
                 className="w-full rotate-3"
               />
             </div>
-            <button className="text-white text-lg font-semibold bg-purple rounded-full py-4 px-20 whitespace-nowrap border-[2px]  absolute -bottom-12 left-1/2 -translate-x-1/2 -rotate-3 duration-300 transition-all hover:-translate-y-5">
+            <button className="text-white text-lg font-semibold bg-skyBlue rounded-full py-4 px-20 whitespace-nowrap border-[2px]  absolute -bottom-12 left-1/2 -translate-x-1/2 -rotate-3 duration-300 transition-all hover:-translate-y-5">
               Buy Now
             </button>
             <img

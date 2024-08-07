@@ -14,21 +14,21 @@ const Tokenomics = () => {
         </div>
 
         <div className="flex flex-col md:flex-row items-center w-full py-7">
-          <div className="border-r border-purple-600 w-full md:w-[43%]">
-            <h1 className="text-4xl font-extra font-bold text-purple">
+          <div className="border-r border-blue-600 w-full md:w-[43%]">
+            <h1 className="text-4xl font-extra font-bold text-skyBlue">
               1,000,000,000
             </h1>
             <h1 className="text-2xl font-bold text-dark">TOTAL SUPPLY</h1>
-            <div className="relative py-4 px-5 flex items-center justify-around gap-3 bg-white max-w-lg border border-purple-600 mt-5 ">
+            <div className="relative py-4 px-5 flex items-center justify-around gap-3 bg-white max-w-lg border border-skyBlue mt-5 ">
               <p className="text-dark text-base md:text-xl font-bold">
                 {" "}
                 2x383DJSDHSDBSSDSDSD7739383DSD
               </p>
 
               <button>
-                <TbCopy size={30} className="text-purple" />
+                <TbCopy size={30} className="text-skyBlue" />
               </button>
-              <div className="w-full h-full bg-purple absolute z-[-1] rotate-2">
+              <div className="w-full h-full bg-skyBlue absolute z-[-1] rotate-2">
                 {" "}
                 s
               </div>
@@ -39,7 +39,7 @@ const Tokenomics = () => {
               {tokenomics.map((item, index) => (
                 <li
                   key={index}
-                  className="text-purple text-4xl font-bold border-r border-purple-600 pr-5"
+                  className="text-skyBlue text-4xl font-bold border-r border-purple-600 pr-5"
                 >
                   {item}
                 </li>
