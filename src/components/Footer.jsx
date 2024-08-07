@@ -3,7 +3,7 @@ import { socialLinks } from "../constant";
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-white py-4 p-12">
+    <footer className="bg-dark text-white py-10 p-12">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <div className="">
           <h1 className="font-title text-5xl md:text-7xl text-WHITE font-bold">

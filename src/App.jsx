@@ -5,6 +5,7 @@ import About from "./view/About";
 import Tokenomics from "./view/Tokenomics";
 import Footer from "./components/Footer";
 import Gallery from "./view/Gallery";
+import PhotoSlide from "./view/PhotoSlide";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Header />
       <Hero />
       <About />
+      <PhotoSlide />
       <Tokenomics />
       <Gallery />
       <Footer />

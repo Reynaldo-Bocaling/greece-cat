@@ -27,7 +27,7 @@
     width: 1000px;
     height: 500px;
     border-radius: 20%;
-    background: radial-gradient(ellipse at center, hsla(41, 73%, 17%, 0.7),
+    background: radial-gradient(ellipse at center, hsla(207, 100%, 71%, 0.7),
             transparent 64%);
     z-index: 1;
 
@@ -42,7 +42,7 @@
     width: 1000px;
     height: 500px;
     border-radius: 20%;
-    background: radial-gradient(ellipse at center, hsla(263, 50%, 22%, 0.7),
+    background: radial-gradient(ellipse at center, hsla(15, 87%, 82%, 0.7),
             transparent 64%);
     z-index: 1;
 

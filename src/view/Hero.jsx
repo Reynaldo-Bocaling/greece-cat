@@ -1,10 +1,11 @@
 import React from "react";
 import { GoArrowRight } from "react-icons/go";
 import SlidingText from "../components/SlidingText";
+import { socialLinks } from "../constant";
 
 const Hero = () => {
   return (
-    <section id="hero" className="relative w-full bg-dark py-14">
+    <section id="hero" className="relative w-full bg-bluish py-14">
       <div className="relative max-w-7xl mx-auto px-5 z-[99]">
         <div className="flex flex-col items-center">
           <h1 className="text-5xl md:text-8xl text-white font-medium flex flex-wrap items-center justify-center gap-5 leading-[4rem] md:leading-[6.5rem] text-center">
@@ -15,7 +16,7 @@ const Hero = () => {
             </p>{" "}
             Stray Cats of Greece with Our New Token
           </h1>
-          <p className="text-sm text-yellow-500 max-w-sm border ml-auto border-yellow-500 rounded-full py-3 px-7 mt-5 md:-translate-y-28 md:-translate-x-20">
+          <p className="text-sm text-gold max-w-sm border ml-auto border-gold rounded-full py-3 px-7 mt-5 md:-translate-y-28 md:-translate-x-20">
             Support stray cats with every transaction.
           </p>
         </div>
@@ -31,6 +32,19 @@ const Hero = () => {
               <img src="/img/hero_img1.jpg" className="w-2/3" alt="" />
               <img src="/img/hero_img2.jpg" className="w-1/3" alt="" />
             </div>
+
+            <ul className="flex items-center justify-between mt-5 px-3">
+              {socialLinks.map((item, index) => (
+                <li
+                  key={index}
+                  className="flex items-center justify-center w-[55px] h-[55px] p-3 rounded-full bg-transparentGray"
+                >
+                  <a href={item.url}>
+                    <img src={item.img} alt="" className="w-full" />
+                  </a>
+                </li>
+              ))}
+            </ul>
           </div>
           <div className="flex-1 relative bg-transparentGray  rounded-2xl  px-5 flex items-start overflow-hidden">
             <div className="w-full md:w-1/2 py-7 px-4 z-[99]">
@@ -42,6 +56,9 @@ const Hero = () => {
                 Explore our unique phone designs featuring cat collages and
                 start earning today!
               </p>
+              <button className="text-white text-2xl font-semibold tracking-wider bg-purple rounded-full py-3 px-14 whitespace-nowrap border-[2px] mt-12  -rotate-3 duration-300 transition-all hover:-translate-y-5">
+                Dextool
+              </button>
             </div>
             <img
               src="/img/main-phone.png"

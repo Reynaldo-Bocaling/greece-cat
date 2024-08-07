@@ -6,26 +6,23 @@ import { FaTimes } from "react-icons/fa";
 const header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className="relative w-full bg-dark z-[998]">
+    <header className="relative w-full bg-bluish z-[998]">
       <nav className="max-w-7xl mx-auto flex items-center justify-between px-4 py-4">
-        <h1 className="text-2xl text-white font-bold">
+        <h1 className="text-2xl text-dark font-bold">
           Greece_<span className="text-purple">Cat</span>
         </h1>
         <ul className="hidden md:flex items-center justify-center gap-20">
           {navlinks.map((item, index) => {
             return (
               <li key={index}>
-                <a
-                  href={item.url}
-                  className="text-xl tracking-wider text-gray-400"
-                >
+                <a href={item.url} className="text-xl tracking-wider text-dark">
                   {item.label}
                 </a>
               </li>
             );
           })}
         </ul>
-        <button className="hidden md:flex text-white text-lg font-semibold border border-white rounded-full py-3 px-12 duration-300 transition-all hover:scale-[1.1]">
+        <button className="text-white text-xl font-semibold tracking-wider bg-purple rounded-full py-3 px-12 whitespace-nowrap border-[2px]  duration-300 transition-all hover:-translate-y-5">
           Buy Now
         </button>
         <button
