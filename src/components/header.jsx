@@ -8,14 +8,17 @@ const header = () => {
   return (
     <header className="relative w-full bg-bluish z-[998]">
       <nav className="max-w-7xl mx-auto flex items-center justify-between px-4 py-4">
-        <h1 className="text-2xl text-dark font-bold">
+        <h1 className="text-3xl text-white font-bold">
           Greece_<span className="text-skyBlue">Cat</span>
         </h1>
         <ul className="hidden md:flex items-center justify-center gap-20">
           {navlinks.map((item, index) => {
             return (
               <li key={index}>
-                <a href={item.url} className="text-xl tracking-wider text-dark">
+                <a
+                  href={item.url}
+                  className="text-2xl tracking-wider text-white"
+                >
                   {item.label}
                 </a>
               </li>

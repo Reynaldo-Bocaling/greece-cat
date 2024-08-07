@@ -10,13 +10,13 @@ const Hero = () => {
         <div className="flex flex-col items-center">
           <h1 className="text-5xl md:text-8xl text-white font-medium flex flex-wrap items-center justify-center gap-5 leading-[4rem] md:leading-[6.5rem] text-center">
             Embrace the{" "}
-            <p className="text-lg font-extra text-darkBlue tracking-wider bg-reds-500 max-w-md px-9">
+            <p className="text-lg font-extra text-darkBlue font-bold tracking-wider bg-reds-500 max-w-md px-9">
               Join the movement to celebrate and support Greece's stray cats
               with our unique crypto.
             </p>{" "}
             Stray Cats of Greece with Our New Token
           </h1>
-          <p className="text-sm text-gold max-w-sm border ml-auto border-gold rounded-full py-3 px-7 mt-5 md:-translate-y-28 md:-translate-x-20">
+          <p className="text-sm text-orange-500 max-w-sm border ml-auto font-bold tracking-wider border-orange-500 rounded-full py-3 px-7 mt-5 md:-translate-y-28 md:-translate-x-20">
             Support stray cats with every transaction.
           </p>
         </div>
