@@ -12,6 +12,11 @@ export default {
         purple: "#7F27FF",
         dark: "#232323",
       },
+      fontFamily: {
+        title: ["Timmana", "sans-serif"],
+        normal: ["Kanit", "sans-serif"],
+        extra: ["Courgette", "cursive"],
+      },
     },
   },
   plugins: [],

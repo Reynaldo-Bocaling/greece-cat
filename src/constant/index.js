@@ -34,3 +34,22 @@ export const gallery = [
   "/img/img11.jpg",
   "/img/img12.jpg",
 ];
+
+export const socialLinks = [
+  {
+    url: "",
+    img: "/img/socials/x.png",
+  },
+  {
+    url: "",
+    img: "/img/socials/tele.png",
+  },
+  {
+    url: "",
+    img: "/img/socials/dextool.png",
+  },
+  {
+    url: "",
+    img: "/img/socials/dexscreener.png",
+  },
+];

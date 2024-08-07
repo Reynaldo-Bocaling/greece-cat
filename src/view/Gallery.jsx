@@ -9,7 +9,7 @@ const Gallery = () => {
       className="w-full relative py-20 bg-dark rounded-t-[15rem] overflow-hidden mt-14"
     >
       <div className="relative max-w-7xl mx-auto flexColCenter gap-9 z-[998]">
-        <h1 className="title text-7xl text-white font-bold  text-center mb-12">
+        <h1 className="font-title text-7xl text-white font-bold  text-center mb-12">
           GALLERY{" "}
           <span className="text-center text-yellow-500 text-4xl">*</span>
         </h1>

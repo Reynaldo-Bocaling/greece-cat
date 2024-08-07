@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="flex flex-col items-center">
           <h1 className="text-5xl md:text-8xl text-white font-medium flex flex-wrap items-center justify-center gap-5 leading-[4rem] md:leading-[6.5rem] text-center">
             Embrace the{" "}
-            <p className="text-lg extra text-purple tracking-wider bg-reds-500 max-w-md px-9">
+            <p className="text-lg font-extra text-purple tracking-wider bg-reds-500 max-w-md px-9">
               Join the movement to celebrate and support Greece's stray cats
               with our unique crypto.
             </p>{" "}
@@ -21,7 +21,7 @@ const Hero = () => {
         </div>
         <div className="flex flex-col md:flex-row items-center gap-5 -mt-12">
           <div className="w-full md:w-1/4 ">
-            <button className="normal text-xl text-black font-medium pl-5 pr-2 py-2 w-full rounded-full bg-yellow-500 flex items-center justify-between gap-12 duration-300 transition-all hover:translate-x-5">
+            <button className="font-normal text-xl text-black font-medium pl-5 pr-2 py-2 w-full rounded-full bg-yellow-500 flex items-center justify-between gap-12 duration-300 transition-all hover:translate-x-5">
               Buy Now Tokens
               <p className="h-[50px] w-[50px] rounded-full bg-white flex items-center justify-center">
                 <GoArrowRight size={25} />
@@ -34,11 +34,11 @@ const Hero = () => {
           </div>
           <div className="flex-1 relative bg-transparentGray  rounded-2xl  px-5 flex items-start overflow-hidden">
             <div className="w-1/2 py-7 px-4 z-[99]">
-              <h1 className="text-3xl title text-white">
+              <h1 className="text-3xl font-title text-white">
                 Earn with Every Cat Today{" "}
                 <span className="text-yellow-500 text-4xl">*</span>
               </h1>
-              <p className="normal text-slate-200 font-light tracking-wider mt-5">
+              <p className="font-normal text-slate-200 font-light tracking-wider mt-5">
                 Explore our unique phone designs featuring cat collages and
                 start earning today!
               </p>
@@ -57,11 +57,11 @@ const Hero = () => {
           <div className="w-full md:w-1/4 relative bg-yellow-500  rounded-2xl py-7 px-5 overflow-hidden">
             <div className="relative flex flex-wrap z-[99]">
               {" "}
-              <h1 className="normal text-xl">
+              <h1 className="font-normal text-xl">
                 Invest in our unique Greece Cat Tokens. Celebrate stray cats and
                 join the crypto revolution today!
               </h1>
-              <button className="normal text-purple text-lg font-medium  bg-white py-2 px-7 rounded-full">
+              <button className="font-normal text-purple text-lg font-medium  bg-white py-2 px-7 rounded-full">
                 Earn
               </button>
             </div>

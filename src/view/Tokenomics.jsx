@@ -8,14 +8,14 @@ const Tokenomics = () => {
     <section id="tokenomics" className="relative w-full">
       <div className="max-w-7xl mx-auto px-5">
         <div className="w-full flex items-center justify-between">
-          <h1 className="title text-7xl text-dark font-bold">
+          <h1 className="font-title text-7xl text-dark font-bold">
             TOKENOMICS <span className="text-yellow-500 text-4xl">*</span>
           </h1>
         </div>
 
         <div className="flex flex-col md:flex-row items-center w-full py-7">
           <div className="border-r border-purple-600 w-full md:w-[43%]">
-            <h1 className="text-4xl extra font-bold text-purple">
+            <h1 className="text-4xl font-extra font-bold text-purple">
               1,000,000,000
             </h1>
             <h1 className="text-2xl font-bold text-dark">TOTAL SUPPLY</h1>

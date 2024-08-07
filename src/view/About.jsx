@@ -5,11 +5,11 @@ const About = () => {
     <section id="about" className="relative w-full ">
       <div className="max-w-7xl mx-auto flex items-center flex-col md:flex-row justify-center gap-20 px-4 mt-28 md:mt-0">
         <div className="w-full md:w-1/2 flex flex-col gap-4">
-          <h1 className="title text-5xl text-dark font-bold">
+          <h1 className="font-title text-7xl text-dark font-bold">
             GET TO KNOW US <span className="text-yellow-500 text-4xl">*</span>
           </h1>
           <p
-            className="normal
+            className="font-normal
            text-lg text-gray-600 tracking-wide"
           >
             Hello. I recently took a trip to Mykonos,Greece. While i was out
@@ -20,7 +20,7 @@ const About = () => {
             Paris".
           </p>
           <p
-            className="normal
+            className="font-normal
            text-lg text-gray-600 tracking-wide mt-4"
           >
             Maybe I was just drunk but its only right we show love to all the

@@ -3,7 +3,6 @@ import Header from "./components/header";
 import Hero from "./view/Hero";
 import About from "./view/About";
 import Tokenomics from "./view/Tokenomics";
-import Contact from "./view/Contact";
 import Footer from "./components/Footer";
 import Gallery from "./view/Gallery";
 
@@ -15,7 +14,6 @@ const App = () => {
       <About />
       <Tokenomics />
       <Gallery />
-      <Contact />
       <Footer />
     </main>
   );

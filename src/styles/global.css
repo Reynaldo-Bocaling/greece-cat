@@ -13,20 +13,6 @@
     scroll-padding-top: 120px;
 }
 
-.title {
-    font-family: "Timmana", sans-serif;
-}
-
-.extra {
-    font-family: "Courgette", cursive;
-}
-
-.normal {
-    font-family: "Kanit", sans-serif;
-}
-
-body {}
-
 
 
 
@@ -135,19 +121,4 @@ body {}
             transparent 64%);
     z-index: -1;
 
-}
-
-
-
-
-.btnStyle {
-    background-image: url('/img/button_bg.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.blur_effect {
-    background: rgba(27, 27, 27, 0.15);
-    backdrop-filter: blur(10px);
 }
