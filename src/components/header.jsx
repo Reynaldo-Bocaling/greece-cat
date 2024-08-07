@@ -25,7 +25,7 @@ const header = () => {
             );
           })}
         </ul>
-        <button className="text-white text-xl font-semibold tracking-wider bg-skyBlue rounded-full py-3 px-12 whitespace-nowrap border-[2px]  duration-300 transition-all hover:-translate-y-5">
+        <button className="hidden md:flex text-white text-xl font-semibold tracking-wider bg-skyBlue rounded-full py-3 px-12 whitespace-nowrap border-[2px]  duration-300 transition-all hover:-translate-y-5">
           Buy Now
         </button>
         <button
